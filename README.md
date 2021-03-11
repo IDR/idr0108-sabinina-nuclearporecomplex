@@ -6,7 +6,7 @@
 | Task | Duration |
 | :----: |:----:|
 | Images| 30hr |
-| Rendering| -- |
+| Rendering| 30min |
 | Annotations | -- |
 
 ### idr-next
