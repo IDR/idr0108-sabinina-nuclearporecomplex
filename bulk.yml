@@ -7,3 +7,4 @@ skip: "all"
 columns:
   - target
   - path
+  - name
