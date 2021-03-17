@@ -38,7 +38,7 @@ columns:
   - group:
       namespace: openmicroscopy.org/mapr/cell_line
       columns:
-        - name: Characteristics [Cell Line]
+        - name: Characteristics [Cell line]
           clientname: Cell Line
           include: true
 
