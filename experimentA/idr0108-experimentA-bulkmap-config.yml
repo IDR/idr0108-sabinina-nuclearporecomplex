@@ -1,0 +1,82 @@
+---
+name: idr0108-sabinina-nuclearporecomplex/experimentA
+version: 1
+
+defaults:
+  include: no
+  type: string
+  includeclient: yes
+  visible: yes
+  omitempty: yes
+
+columns:
+
+  - name: Comment [Image File Type]
+    clientname: Image File Type
+    include: yes
+
+  - name: Experimental Condition
+    clientname: Experimental Condition
+    include: yes
+
+  - name: Assay Name
+    clientname: Assay Name
+    include: yes
+
+
+  ######################################################################
+  # mapr groups
+  ######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+        - name: Characteristics [Organism]
+          clientname: Organism
+          include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/cell_line
+      columns:
+        - name: Characteristics [Cell Line]
+          clientname: Cell Line
+          include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene
+      columns:
+        - name: Comment [Gene Identifier]
+          clientname: Gene Identifier
+          include: true
+          omitempty: false
+        - name: Comment [Gene Identifier]
+          clientname: Gene Identifier URL
+          clientvalue: >
+            http://www.ensembl.org/id/{{ value|urlencode }}
+          include: true
+        - name: Comment [Gene Symbol]
+          clientname: Gene Symbol
+          include: true
+          omitempty: false
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene/supplementary
+      columns:
+      - name: Comment [Gene Annotation Comments]
+        clientname: Gene Annotation Comments
+        include: true
+
+
+advanced:
+  ignore_missing_primary_key: yes
+  primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+        - Organism
+    - namespace: openmicroscopy.org/mapr/cell_line
+      keys:
+        - Cell Line
+    - namespace: openmicroscopy.org/mapr/gene
+      keys:
+        - Gene Identifier
+        - Gene Symbol
