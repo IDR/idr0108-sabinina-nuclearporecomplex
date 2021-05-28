@@ -15,7 +15,11 @@ columns:
     clientname: Image File Type
     include: yes
 
-  - name: Experimental Condition
+  - name: Comment [Image Channels Comments]
+    clientname: Image Channels Comments
+    include: yes
+
+  - name: Comment [Experimental Condition]
     clientname: Experimental Condition
     include: yes
 
