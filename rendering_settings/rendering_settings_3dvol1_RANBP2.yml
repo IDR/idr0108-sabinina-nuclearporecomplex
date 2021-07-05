@@ -1,0 +1,12 @@
+---
+channels:
+    1:
+        active: true
+        color: '808080'
+        end: 1.0
+        label: 'RANBP2'
+        start: 0.0
+greyscale: true
+t: 1
+version: 2
+z: 1

@@ -4,9 +4,7 @@ channels:
         active: true
         color: FFFFFF
         end: 65535.0
-        label: Default
-        max: 65535.0
-        min: 327.0
+        label: 'cells'
         start: 327.0
 greyscale: true
 t: 1

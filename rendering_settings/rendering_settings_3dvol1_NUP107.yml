@@ -3,10 +3,8 @@ channels:
     1:
         active: true
         color: '808080'
-        end: 15.0
-        label: '0'
-        max: 15.0
-        min: 0.0
+        end: 1.0
+        label: 'NUP107'
         start: 0.0
 greyscale: true
 t: 1
