@@ -1,0 +1,19 @@
+# This is not a script, just a list of commands to run
+# in order to set the rendering settings (make sure to 
+# use the correct Project/Dataset ids).
+
+python ../scripts/find_images.py "MMStack" Project:1801 | cut -f 2 >> /tmp/mmstack.ids
+python ../scripts/find_images.py "3Dvolume_2" Project:1801 | cut -f 2 >> /tmp/vol2.ids
+python ../scripts/find_images.py "3Dvolume_1" Dataset:13851 | cut -f 2 >> /tmp/nup107.ids
+python ../scripts/find_images.py "3Dvolume_1" Dataset:13852 | cut -f 2 >> /tmp/nup133.ids
+python ../scripts/find_images.py "3Dvolume_1" Dataset:13853 | cut -f 2 >> /tmp/ranbp2.ids
+python ../scripts/find_images.py "3Dvolume_1" Dataset:13854 | cut -f 2 >> /tmp/seh1.ids
+python ../scripts/find_images.py "3Dvolume_1" Dataset:13855 | cut -f 2 >> /tmp/tpr.ids
+
+for i in `cat /tmp/mmstack.ids`; do omero render set $i rendering_settings_mmstack.yml; done
+for i in `cat /tmp/vol2.ids`; do omero render set $i rendering_settings_3dvol2.yml; done
+for i in `cat /tmp/nup107.ids`; do omero render set $i rendering_settings_3dvol1_NUP107.yml; done
+for i in `cat /tmp/nup133.ids`; do omero render set $i rendering_settings_3dvol1_NUP133.yml; done
+for i in `cat /tmp/ranbp2.ids`; do omero render set $i rendering_settings_3dvol1_RANBP2.yml; done
+for i in `cat /tmp/seh1.ids`; do omero render set $i rendering_settings_3dvol1_SEH1.yml; done
+for i in `cat /tmp/tpr.ids`; do omero render set $i rendering_settings_3dvol1_TPR.yml; done
