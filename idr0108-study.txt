@@ -1,0 +1,102 @@
+# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.							
+# STUDY DESCRIPTION SECTION				
+# Section with generic information about the study including title, description, publication details (if applicable) and contact details				
+				
+Comment[IDR Study Accession]	idr0108			
+Study Title	3D super-resolution fluorescence microscopy maps the variable molecular architecture of the Nuclear Pore Complex			
+Study Type	time-lapse imaging			
+Study Type Term Source REF	OMIT			
+Study Type Term Accession	OMIT_0027490			
+Study Description	We explored the power of 3D super-resolution microscopy combined with computational classification and averaging to explore the 3D structure of the NPC in single human cells. We show that this approach can build the first integrated 3D structural map containing both central as well as peripheral NPC subunits with molecular specificity and nanoscale resolution. Our unbiased classification of over ten thousand individual NPCs indicates that the nuclear ring and the nuclear basket can adopt different conformations. Our approach opens up the exciting possibility to relate different structural states of the NPC to function in situ.			
+Study Key Words	nuclear pore complex	super-resolution microscopy	single molecule localization microscopy	topological data analysis			
+Study Organism	Homo sapiens			
+Study Organism Term Source REF	NCBITaxon			
+Study Organism Term Accession	9606			
+Study Experiments Number	1			
+Study External URL		
+Study BioImage Archive Accession		
+Study Public Release Date				
+				
+# Study Publication				
+Study PubMed ID	34191541			
+Study Publication Title	3D super-resolution fluorescence microscopy maps the variable molecular architecture of the Nuclear Pore Complex			
+Study Author List	Sabinina VJ, Hossain MJ, Hériché JK, Hoess P, Nijmeijer B, Mosalaganti S, Kueblbeck M, Callegari A, Szymborska A, Beck M, Ries J, Ellenberg J	
+Study PMC ID				
+Study DOI	https://doi.org/10.1091/mbc.E20-11-0728			
+				
+# Study Contacts				
+Study Person Last Name	Ellenberg			
+Study Person First Name	Jan			
+Study Person Email	ellenberg@embl.de			
+Study Person Address	EMBL Heidelberg, Meyerhofstrabe 1, 69117 Heidelberg, Germany EMBL Heidelberg, Meyerhofstrabe 1, 69117 Heidelberg, Germany			
+Study Person ORCID	0000-0001-5909-701X			
+Study Person Roles	principal investigator			
+				
+# Study License and Data DOI				
+Study License	CC BY 4.0			
+Study License URL	https://creativecommons.org/licenses/by/4.0/			
+Study Copyright	Sabinina et al			
+Study Data Publisher	University of Dundee			
+Study Data DOI				
+				
+Term Source Name	NCBITaxon	EFO	CMPO	FBbi
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/
+				
+				
+# EXPERIMENT SECTION				
+# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment				
+				
+Experiment Number	1			
+Comment[IDR Experiment Name]	idr0108-sabinina-nuclearporecomplex/experimentA		
+Experiment Sample Type	cell	
+Experiment Description	Dual color super-resolution imaging of ELYS and NUP107.			
+Experiment Size	5D Images: 	Average Image Dimension (XYZCT): 2310x3290x80x2x1	Total Mb: 16 	
+Experiment Example Images		
+Experiment Imaging Method	super-resolution microscopy			
+Experiment Imaging Method Term Source REF	MI			
+Experiment Imaging Method Term Accession	MI_2213		
+Experiment Organism									
+Experiment Organism Term Source REF	NCBITaxon									
+Experiment Organism Term Accession	
+Experiment Comments				
+				
+# assay files				
+Experiment Assay File	idr0108-experimentA-annotation			
+Experiment Assay File Format	tab-delimited text			
+Assay Experimental Conditions			
+Assay Experimental Conditions Term Source REF				
+Assay Experimental Conditions Term Accession				
+Quality Control Description				
+				
+# Protocols				
+Protocol Name	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol
+Protocol Type	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol
+Protocol Type Term Source REF	EFO	EFO		
+Protocol Type Term Accession	EFO_0003789	EFO_0003969		
+Protocol Description	U2OS cells were cultured at 37C and 5% CO2 in 1x high glucose McCoy's 5A modified medium with 10% (v/v) fetal bovine serum, 100 U/ml penicillin-streptomycin, 2 mM L-glutamin, 1 mM sodium pyruvate and 1% MEM nonessential amino acid. Tests confirming the absence of mycoplasma were performed every 2 months.	The nucleoporin gene of interest was edited with the SNAPf-tag Zinc finger nucleases to add a SNAP tag at the N-terminus of the protein. Tagged proteins were detected using benzylguanine-conjugated AF647 and ELYS with a polyclonal rabbit antibody followed by a secondary antibody coupled to CF680. Data was acquired on a custom-built wide-field setup described in Deschamps et al., 2016 using a cylindrical lens (f = 1000 mm) to introduce astigmatism. 		Blinking event data (files with names MMStack*.ome.tif)  was processed to generate localization data (in csv files) which was further processed to produce the final images (files with names sml_3Dvolume*.tif). Processing was done with the SMAP software (https://github.com/jries/SMAP)
+				
+# Phenotypes				
+Phenotype Name			
+Phenotype Description			
+Phenotype Score Type				
+Phenotype Term Source REF	CMPO			
+Phenotype Term Name				
+Phenotype Term Accession		 	
+				
+				
+# Feature Level Data Files (give individual file details unless there is one file per well)				
+Feature Level Data File Name				
+Feature Level Data File Format				
+Feature Level Data File Description			
+Feature Level Data Column Name				
+Feature Level Data Column Description				
+				
+#  Processed Data Files 				
+Processed Data File Name				
+Processed Data File Format	tab-delimited text			
+Processed Data File Description				
+Processed Data Column Name			
+Processed Data Column Type				
+Processed Data Column Annotation Level				
+Processed Data Column Description	
+Processed Data Column Link To Assay File				
