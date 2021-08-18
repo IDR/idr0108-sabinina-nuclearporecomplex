@@ -4,7 +4,9 @@ channels:
         active: true
         color: '808080'
         end: 1.0
-        label: 'NUP133'
+        label: NUP133
+        max: 14.0
+        min: 0.0
         start: 0.0
 greyscale: true
 t: 1

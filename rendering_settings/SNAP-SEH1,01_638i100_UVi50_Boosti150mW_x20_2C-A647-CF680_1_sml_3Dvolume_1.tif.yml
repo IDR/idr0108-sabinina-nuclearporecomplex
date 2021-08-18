@@ -4,7 +4,9 @@ channels:
         active: true
         color: '808080'
         end: 1.0
-        label: 'RANBP2'
+        label: SEH1
+        max: 9.0
+        min: 0.0
         start: 0.0
 greyscale: true
 t: 1
