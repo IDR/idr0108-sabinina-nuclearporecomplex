@@ -37,7 +37,7 @@ Study License	CC BY 4.0
 Study License URL	https://creativecommons.org/licenses/by/4.0/			
 Study Copyright	Sabinina et al			
 Study Data Publisher	University of Dundee			
-Study Data DOI				
+Study Data DOI	https://doi.org/10.17867/10000166				
 				
 Term Source Name	NCBITaxon	EFO	CMPO	FBbi
 Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/
@@ -49,7 +49,7 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 Experiment Number	1			
 Comment[IDR Experiment Name]	idr0108-sabinina-nuclearporecomplex/experimentA		
 Experiment Sample Type	cell	
-Experiment Description	Dual color super-resolution imaging of ELYS and NUP107.			
+Experiment Description	Dual color super-resolution imaging of ELYS and NUP107, NUP133, RANBP2, SEH1, TPR.  			
 Experiment Size	5D Images: 	Average Image Dimension (XYZCT): 2310x3290x80x2x1	Total Mb: 16 	
 Experiment Example Images		
 Experiment Imaging Method	super-resolution microscopy			
